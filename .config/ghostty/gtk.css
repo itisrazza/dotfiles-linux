@@ -1,0 +1,26 @@
+tabbar {
+    background: #111111;
+    padding: 0;
+}
+
+tabbox {
+    min-height: 0;
+}
+
+tabbar tab {
+    padding: 0;
+    min-height: 24px;
+    border: 1px solid #212121;
+    transition: none;
+}
+
+tabbar tab:hover {
+    border-color: #616161;
+    background: transparent;
+    outline:  #616161;
+}
+
+tabbar tab:selected {
+    background: #212121;
+    color: #ffffff;
+}
